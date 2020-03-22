@@ -7,8 +7,15 @@
 </head>
 <body>
     <h1>BMI Calculator</h1>
-    <input  type="text"  id="weight"  placeholder="Your weight in kg">
-    <input  type="text"  id="height"  placeholder="Your height in m">
-    <button  id="Calculate">Let's Calculate</button>
+    <input id="weight" type="text" placeholder="Weight in kg">
+    <input id="height" type="text" placeholder="Height in m">
+    <button onclick="calculateBMI()">Let's Calculate!</button>
+    <div id="results" class="d-inline-block" ></div>
+
+
+    <script  src="./assets/js/bmiCalculator.js"></script>
+	<script  src="./assets/js/bmiUI.js"></script>
+
+
 </body>
 </html>
