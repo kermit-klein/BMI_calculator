@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="./assets/css//styles.css">
+</head>
+<body>
+    
+    <div class="cnt1 container mt-5">
+        <h1>BMI Calculator</h1>
+        <div class="form-group">
+          <label for="weight">Weight in kg</label>
+          <input type="text" class="form-control" id="weight" required>
+        </div>
+        <div class="form-group">
+          <label for="height">Height in m</label>
+          <input type="text" class="form-control" id="height" required>
+        </div>
+        <form>
+            <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" name="terms" id="myCheck">
+            <label class="form-check-label" for="exampleCheck1">I hereby consent to the processing of the personal data that I have provided and declared</label>
+            </div>
+        </form>
+        <button class="btn btn-info" id="Calculate" onclick="calculateBMI()">Submit</button>
+   
+        <a class="btn btn-danger" id="Reset" href="/">Reset</a>
+    </div>
+    <div class="container cnt2"><div id="results" class="d-inline-block mt-4" ></div></div>
+    <script  src="./assets/js/bmiCalculator.js"></script>
+	<script  src="./assets/js/bmiUI.js"></script>
+
+</body>
+</html>
