@@ -8,4 +8,5 @@ https://kermit-klein.github.io/BMI_calculator/src/index.html
 -Consent checkbox for calculation <br/>
 -Basic reset button to refresh page <br/>
 -Upon calculation BMI Index table provided <br/>
--CSS Bootstrap 4
+-CSS Bootstrap 4 <br/>
+-Functionality test with Cypress
