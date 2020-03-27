@@ -13,7 +13,7 @@
     "superstatic": "^6.0.4"
   },
   "scripts": {
-    "start":"superstatic src --port 3002",
+    "start":"superstatic src --host 192.168.0.3 --port 3002",
     "cy:open":"yarn start & cypress open"
   }
 }
