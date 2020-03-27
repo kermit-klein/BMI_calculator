@@ -4,8 +4,8 @@ to access the BMI follow :
 
 https://kermit-klein.github.io/BMI_calculator/src/index.html
 
--Calibrated for metric system
--Consent checkbox for calculation
--Basic reset button to refresh page
--Upon calculation BMI Index table provided
+-Calibrated for metric system \n
+-Consent checkbox for calculation \n
+-Basic reset button to refresh page \n
+-Upon calculation BMI Index table provided \n
 -CSS Bootstrap 4
